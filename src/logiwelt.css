@@ -1,0 +1,150 @@
+.bar-blue {
+	background-color: #182652;
+}
+
+body {
+ 	position: relative;
+ 	padding-top: 50px;
+}
+
+.slide-title {
+	color: #2392FE;
+}
+
+.slide-line {
+	color: #2392FE;
+}
+
+@media screen and (max-width: 768px) {
+	.slide-ocultar-title {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.slide-ocultar-text {
+		display: none;
+	}
+}
+
+.jumbo-color {
+	background-color: #182652;
+	color: #fff;
+}
+
+.jumbo-menos-b {
+	margin-top: -30px;
+}
+
+.menos-margin {
+	margin-bottom: -20px;
+	margin-top: -40px;
+}
+
+.menos-margin-text {
+	margin-top: -10px;
+}
+
+@media screen and (min-width: 767px) {
+	.superponer-imagen {
+		position:absolute;
+	}
+}
+
+.jumbotron-image {
+	background: url("./../images/content/triangulos.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.proceso-img {
+  transition: opacity .1s ease-in-out;
+}
+
+.marco-img {
+   border: 2px solid #fff;
+   border-radius: 10px;
+}
+
+.marco-back-img {
+	background-color: #fff;
+  	border: 2px solid #fff;
+   	border-radius: 10px;
+}
+
+.img-hov:hover {
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.texto-blanco {
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.hide-phone {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.show-phone {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.servicios-text-left {
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.servicios-text-right {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.servicios-text-left {
+		text-align: center;
+	}
+
+	.servicios-text-right {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.grua {
+		background: url(./../images/content/grua.jpg) no-repeat center;
+	}
+}
+.jumbotron-image-2 {
+	background: url("./../images/content/newsletter.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.color-adon {
+	background-color: #0c79e3;
+	color: #fff;
+}
+
+.opacidad-form {
+	opacity: .7;
+}
+
+.carousel-control {
+	width: 5%;
+}
+
+.img-contacto {
+	background: url("./../images/content/contact.png") no-repeat;
+}
+
+.jumbotron-footer {
+	background-color: #1F242E;
+	color: #fff;
+	margin-bottom: -30px;
+}
